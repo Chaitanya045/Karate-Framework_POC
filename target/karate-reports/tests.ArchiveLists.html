@@ -1,0 +1,3711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"5f3aa4ca-60f9-40ca-83f8-b0caba5e7e4b",karate_version:"1.4.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>tests.ArchiveLists</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">3</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-05-10 04:46:31 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:36]"><span>[1.1:36]</span> <span>Archive lists</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:37]"><span>[1.2:37]</span> <span>Archive lists</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.3:38]"><span>[1.3:38]</span> <span>Archive lists</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">tests/ArchiveLists.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Trello API</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:36]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:36]</span>
+                <span class="scenario-name">Archive lists</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3936</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:36]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://api.trello.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">127</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def keyVal = &#39;d331c6d0306950ea15c1be8870875a60&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.1:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenVal = &#39;ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Getting all the boards</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/members/me/boards&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">33</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1876</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.14">16:46:23.748 request:
+1 &gt; GET https://api.trello.com/1/members/me/boards?key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+1 &gt; Accept: application/json
+1 &gt; Host: api.trello.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:25.264 response time in milliseconds: 1465
+1 &lt; 200
+1 &lt; Date: Wed, 10 May 2023 11:16:21 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 4143
+1 &lt; X-Dns-Prefetch-Control: off
+1 &lt; Expect-Ct: max-age=0
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Surrogate-Control: no-store
+1 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+1 &lt; Pragma: no-cache
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+1 &lt; X-Trello-Version: 0.0.0
+1 &lt; X-Trello-Environment: Production
+1 &lt; Set-Cookie: dsc=5c69ce0af7565ab5bbd483f02a69cd366e4833ad7cb9ec6ba12852ca522c2b2f; Path=/; Expires=Wed, 24 May 2023 11:16:21 GMT; Secure; SameSite=None
+1 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+1 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+1 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+1 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Token-Max: 100
+1 &lt; X-Rate-Limit-Api-Token-Remaining: 99
+1 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+1 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+1 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+1 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Key-Max: 300
+1 &lt; X-Rate-Limit-Api-Key-Remaining: 299
+1 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Member-Max: 375
+1 &lt; X-Rate-Limit-Member-Remaining: 374
+1 &lt; X-Server-Time: 1683717381943
+1 &lt; X-Trello-Actual-Fastget-Path: fast
+1 &lt; Server: AtlassianEdge
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; Atl-Traceid: a2a3734ad50b9989
+1 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+1 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+1 &lt; Strict-Transport-Security: max-age=63072000; preload
+[{&quot;id&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;nodeId&quot;:&quot;ari:cloud:trello::board/workspace/63b3b2f7f9fe2105ff770280/645b7cd3918de67ae1105faf&quot;,&quot;name&quot;:&quot;Karate-Framework&quot;,&quot;desc&quot;:&quot;&quot;,&quot;descData&quot;:null,&quot;closed&quot;:false,&quot;dateClosed&quot;:null,&quot;idOrganization&quot;:&quot;63b3b2f7f9fe2105ff770280&quot;,&quot;idEnterprise&quot;:null,&quot;limits&quot;:{&quot;attachments&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:36000,&quot;warnAt&quot;:28800},&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000,&quot;warnAt&quot;:800}},&quot;boards&quot;:{&quot;totalMembersPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1600,&quot;warnAt&quot;:1280},&quot;totalAccessRequestsPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:4000,&quot;warnAt&quot;:3200}},&quot;cards&quot;:{&quot;openPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:5000,&quot;warnAt&quot;:4000},&quot;openPerList&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:5000,&quot;warnAt&quot;:4000},&quot;totalPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:2000000,&quot;warnAt&quot;:1600000},&quot;totalPerList&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000000,&quot;warnAt&quot;:800000}},&quot;checklists&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1800000,&quot;warnAt&quot;:1440000},&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:500,&quot;warnAt&quot;:400}},&quot;checkItems&quot;:{&quot;perChecklist&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:200,&quot;warnAt&quot;:160}},&quot;customFields&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:50,&quot;warnAt&quot;:40}},&quot;customFieldOptions&quot;:{&quot;perField&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:50,&quot;warnAt&quot;:40}},&quot;labels&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000,&quot;warnAt&quot;:800}},&quot;lists&quot;:{&quot;openPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:500,&quot;warnAt&quot;:400},&quot;totalPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:3000,&quot;warnAt&quot;:2400}},&quot;stickers&quot;:{&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:70,&quot;warnAt&quot;:56}},&quot;reactions&quot;:{&quot;perAction&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:900,&quot;warnAt&quot;:720},&quot;uniquePerAction&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:17,&quot;warnAt&quot;:14}}},&quot;pinned&quot;:false,&quot;starred&quot;:false,&quot;url&quot;:&quot;https://trello.com/b/2LXTEX3H/karate-framework&quot;,&quot;prefs&quot;:{&quot;permissionLevel&quot;:&quot;private&quot;,&quot;hideVotes&quot;:false,&quot;voting&quot;:&quot;disabled&quot;,&quot;comments&quot;:&quot;members&quot;,&quot;invitations&quot;:&quot;members&quot;,&quot;selfJoin&quot;:true,&quot;cardCovers&quot;:true,&quot;isTemplate&quot;:false,&quot;cardAging&quot;:&quot;regular&quot;,&quot;calendarFeedEnabled&quot;:false,&quot;hiddenPluginBoardButtons&quot;:[],&quot;switcherViews&quot;:[{&quot;viewType&quot;:&quot;Board&quot;,&quot;enabled&quot;:true,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb0&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb0&quot;},{&quot;viewType&quot;:&quot;Table&quot;,&quot;enabled&quot;:true,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb1&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb1&quot;},{&quot;viewType&quot;:&quot;Calendar&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb2&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb2&quot;},{&quot;viewType&quot;:&quot;Dashboard&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb3&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb3&quot;},{&quot;viewType&quot;:&quot;Timeline&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb4&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb4&quot;},{&quot;viewType&quot;:&quot;Map&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb5&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb5&quot;}],&quot;background&quot;:&quot;blue&quot;,&quot;backgroundColor&quot;:&quot;#0079BF&quot;,&quot;backgroundImage&quot;:null,&quot;backgroundImageScaled&quot;:null,&quot;backgroundTile&quot;:false,&quot;backgroundBrightness&quot;:&quot;dark&quot;,&quot;backgroundBottomColor&quot;:&quot;#0079BF&quot;,&quot;backgroundTopColor&quot;:&quot;#0079BF&quot;,&quot;canBePublic&quot;:true,&quot;canBeEnterprise&quot;:true,&quot;canBeOrg&quot;:true,&quot;canBePrivate&quot;:true,&quot;canInvite&quot;:true},&quot;shortLink&quot;:&quot;2LXTEX3H&quot;,&quot;subscribed&quot;:false,&quot;labelNames&quot;:{&quot;green&quot;:&quot;&quot;,&quot;yellow&quot;:&quot;&quot;,&quot;orange&quot;:&quot;&quot;,&quot;red&quot;:&quot;&quot;,&quot;purple&quot;:&quot;&quot;,&quot;blue&quot;:&quot;&quot;,&quot;sky&quot;:&quot;&quot;,&quot;lime&quot;:&quot;&quot;,&quot;pink&quot;:&quot;&quot;,&quot;black&quot;:&quot;&quot;,&quot;green_dark&quot;:&quot;&quot;,&quot;yellow_dark&quot;:&quot;&quot;,&quot;orange_dark&quot;:&quot;&quot;,&quot;red_dark&quot;:&quot;&quot;,&quot;purple_dark&quot;:&quot;&quot;,&quot;blue_dark&quot;:&quot;&quot;,&quot;sky_dark&quot;:&quot;&quot;,&quot;lime_dark&quot;:&quot;&quot;,&quot;pink_dark&quot;:&quot;&quot;,&quot;black_dark&quot;:&quot;&quot;,&quot;green_light&quot;:&quot;&quot;,&quot;yellow_light&quot;:&quot;&quot;,&quot;orange_light&quot;:&quot;&quot;,&quot;red_light&quot;:&quot;&quot;,&quot;purple_light&quot;:&quot;&quot;,&quot;blue_light&quot;:&quot;&quot;,&quot;sky_light&quot;:&quot;&quot;,&quot;lime_light&quot;:&quot;&quot;,&quot;pink_light&quot;:&quot;&quot;,&quot;black_light&quot;:&quot;&quot;},&quot;powerUps&quot;:[],&quot;dateLastActivity&quot;:null,&quot;dateLastView&quot;:&quot;2023-05-10T11:15:38.334Z&quot;,&quot;shortUrl&quot;:&quot;https://trello.com/b/2LXTEX3H&quot;,&quot;idTags&quot;:[],&quot;datePluginDisable&quot;:null,&quot;creationMethod&quot;:&quot;automatic&quot;,&quot;ixUpdate&quot;:&quot;3&quot;,&quot;templateGallery&quot;:null,&quot;enterpriseOwned&quot;:false,&quot;idBoardSource&quot;:null,&quot;premiumFeatures&quot;:[&quot;additionalBoardBackgrounds&quot;,&quot;additionalStickers&quot;,&quot;customBoardBackgrounds&quot;,&quot;customEmoji&quot;,&quot;customStickers&quot;,&quot;plugins&quot;],&quot;idMemberCreator&quot;:&quot;63b3b2edb721b104190b8817&quot;,&quot;memberships&quot;:[{&quot;idMember&quot;:&quot;63b3b2edb721b104190b8817&quot;,&quot;memberType&quot;:&quot;admin&quot;,&quot;unconfirmed&quot;:false,&quot;deactivated&quot;:false,&quot;id&quot;:&quot;645b7cd3918de67ae1105fba&quot;}]}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">80</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.16">16:46:25.378 [print] [
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;nodeId&quot;: &quot;ari:cloud:trello::board/workspace/63b3b2f7f9fe2105ff770280/645b7cd3918de67ae1105faf&quot;,
+    &quot;name&quot;: &quot;Karate-Framework&quot;,
+    &quot;desc&quot;: &quot;&quot;,
+    &quot;descData&quot;: null,
+    &quot;closed&quot;: false,
+    &quot;dateClosed&quot;: null,
+    &quot;idOrganization&quot;: &quot;63b3b2f7f9fe2105ff770280&quot;,
+    &quot;idEnterprise&quot;: null,
+    &quot;limits&quot;: {
+      &quot;attachments&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 36000,
+          &quot;warnAt&quot;: 28800
+        },
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000,
+          &quot;warnAt&quot;: 800
+        }
+      },
+      &quot;boards&quot;: {
+        &quot;totalMembersPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1600,
+          &quot;warnAt&quot;: 1280
+        },
+        &quot;totalAccessRequestsPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 4000,
+          &quot;warnAt&quot;: 3200
+        }
+      },
+      &quot;cards&quot;: {
+        &quot;openPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 5000,
+          &quot;warnAt&quot;: 4000
+        },
+        &quot;openPerList&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 5000,
+          &quot;warnAt&quot;: 4000
+        },
+        &quot;totalPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 2000000,
+          &quot;warnAt&quot;: 1600000
+        },
+        &quot;totalPerList&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000000,
+          &quot;warnAt&quot;: 800000
+        }
+      },
+      &quot;checklists&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1800000,
+          &quot;warnAt&quot;: 1440000
+        },
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 500,
+          &quot;warnAt&quot;: 400
+        }
+      },
+      &quot;checkItems&quot;: {
+        &quot;perChecklist&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 200,
+          &quot;warnAt&quot;: 160
+        }
+      },
+      &quot;customFields&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 50,
+          &quot;warnAt&quot;: 40
+        }
+      },
+      &quot;customFieldOptions&quot;: {
+        &quot;perField&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 50,
+          &quot;warnAt&quot;: 40
+        }
+      },
+      &quot;labels&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000,
+          &quot;warnAt&quot;: 800
+        }
+      },
+      &quot;lists&quot;: {
+        &quot;openPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 500,
+          &quot;warnAt&quot;: 400
+        },
+        &quot;totalPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 3000,
+          &quot;warnAt&quot;: 2400
+        }
+      },
+      &quot;stickers&quot;: {
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 70,
+          &quot;warnAt&quot;: 56
+        }
+      },
+      &quot;reactions&quot;: {
+        &quot;perAction&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 900,
+          &quot;warnAt&quot;: 720
+        },
+        &quot;uniquePerAction&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 17,
+          &quot;warnAt&quot;: 14
+        }
+      }
+    },
+    &quot;pinned&quot;: false,
+    &quot;starred&quot;: false,
+    &quot;url&quot;: &quot;https://trello.com/b/2LXTEX3H/karate-framework&quot;,
+    &quot;prefs&quot;: {
+      &quot;permissionLevel&quot;: &quot;private&quot;,
+      &quot;hideVotes&quot;: false,
+      &quot;voting&quot;: &quot;disabled&quot;,
+      &quot;comments&quot;: &quot;members&quot;,
+      &quot;invitations&quot;: &quot;members&quot;,
+      &quot;selfJoin&quot;: true,
+      &quot;cardCovers&quot;: true,
+      &quot;isTemplate&quot;: false,
+      &quot;cardAging&quot;: &quot;regular&quot;,
+      &quot;calendarFeedEnabled&quot;: false,
+      &quot;hiddenPluginBoardButtons&quot;: [
+      ],
+      &quot;switcherViews&quot;: [
+        {
+          &quot;viewType&quot;: &quot;Board&quot;,
+          &quot;enabled&quot;: true,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb0&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb0&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Table&quot;,
+          &quot;enabled&quot;: true,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb1&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb1&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Calendar&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb2&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb2&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Dashboard&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb3&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb3&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Timeline&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb4&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb4&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Map&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb5&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb5&quot;
+        }
+      ],
+      &quot;background&quot;: &quot;blue&quot;,
+      &quot;backgroundColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundImage&quot;: null,
+      &quot;backgroundImageScaled&quot;: null,
+      &quot;backgroundTile&quot;: false,
+      &quot;backgroundBrightness&quot;: &quot;dark&quot;,
+      &quot;backgroundBottomColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundTopColor&quot;: &quot;#0079BF&quot;,
+      &quot;canBePublic&quot;: true,
+      &quot;canBeEnterprise&quot;: true,
+      &quot;canBeOrg&quot;: true,
+      &quot;canBePrivate&quot;: true,
+      &quot;canInvite&quot;: true
+    },
+    &quot;shortLink&quot;: &quot;2LXTEX3H&quot;,
+    &quot;subscribed&quot;: false,
+    &quot;labelNames&quot;: {
+      &quot;green&quot;: &quot;&quot;,
+      &quot;yellow&quot;: &quot;&quot;,
+      &quot;orange&quot;: &quot;&quot;,
+      &quot;red&quot;: &quot;&quot;,
+      &quot;purple&quot;: &quot;&quot;,
+      &quot;blue&quot;: &quot;&quot;,
+      &quot;sky&quot;: &quot;&quot;,
+      &quot;lime&quot;: &quot;&quot;,
+      &quot;pink&quot;: &quot;&quot;,
+      &quot;black&quot;: &quot;&quot;,
+      &quot;green_dark&quot;: &quot;&quot;,
+      &quot;yellow_dark&quot;: &quot;&quot;,
+      &quot;orange_dark&quot;: &quot;&quot;,
+      &quot;red_dark&quot;: &quot;&quot;,
+      &quot;purple_dark&quot;: &quot;&quot;,
+      &quot;blue_dark&quot;: &quot;&quot;,
+      &quot;sky_dark&quot;: &quot;&quot;,
+      &quot;lime_dark&quot;: &quot;&quot;,
+      &quot;pink_dark&quot;: &quot;&quot;,
+      &quot;black_dark&quot;: &quot;&quot;,
+      &quot;green_light&quot;: &quot;&quot;,
+      &quot;yellow_light&quot;: &quot;&quot;,
+      &quot;orange_light&quot;: &quot;&quot;,
+      &quot;red_light&quot;: &quot;&quot;,
+      &quot;purple_light&quot;: &quot;&quot;,
+      &quot;blue_light&quot;: &quot;&quot;,
+      &quot;sky_light&quot;: &quot;&quot;,
+      &quot;lime_light&quot;: &quot;&quot;,
+      &quot;pink_light&quot;: &quot;&quot;,
+      &quot;black_light&quot;: &quot;&quot;
+    },
+    &quot;powerUps&quot;: [
+    ],
+    &quot;dateLastActivity&quot;: null,
+    &quot;dateLastView&quot;: &quot;2023-05-10T11:15:38.334Z&quot;,
+    &quot;shortUrl&quot;: &quot;https://trello.com/b/2LXTEX3H&quot;,
+    &quot;idTags&quot;: [
+    ],
+    &quot;datePluginDisable&quot;: null,
+    &quot;creationMethod&quot;: &quot;automatic&quot;,
+    &quot;ixUpdate&quot;: &quot;3&quot;,
+    &quot;templateGallery&quot;: null,
+    &quot;enterpriseOwned&quot;: false,
+    &quot;idBoardSource&quot;: null,
+    &quot;premiumFeatures&quot;: [
+      &quot;additionalBoardBackgrounds&quot;,
+      &quot;additionalStickers&quot;,
+      &quot;customBoardBackgrounds&quot;,
+      &quot;customEmoji&quot;,
+      &quot;customStickers&quot;,
+      &quot;plugins&quot;
+    ],
+    &quot;idMemberCreator&quot;: &quot;63b3b2edb721b104190b8817&quot;,
+    &quot;memberships&quot;: [
+      {
+        &quot;idMember&quot;: &quot;63b3b2edb721b104190b8817&quot;,
+        &quot;memberType&quot;: &quot;admin&quot;,
+        &quot;unconfirmed&quot;: false,
+        &quot;deactivated&quot;: false,
+        &quot;id&quot;: &quot;645b7cd3918de67ae1105fba&quot;
+      }
+    ]
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def allBoards = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Getting the lists on board</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/boards/&#39;, allBoards[0].id, &#39;/lists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">13</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1256</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.22">16:46:25.403 request:
+2 &gt; GET https://api.trello.com/1/boards/645b7cd3918de67ae1105faf/lists?key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+2 &gt; Cookie: dsc=5c69ce0af7565ab5bbd483f02a69cd366e4833ad7cb9ec6ba12852ca522c2b2f; preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk
+2 &gt; Host: api.trello.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:26.654 response time in milliseconds: 1250
+2 &lt; 200
+2 &lt; Date: Wed, 10 May 2023 11:16:23 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 489
+2 &lt; X-Dns-Prefetch-Control: off
+2 &lt; Expect-Ct: max-age=0
+2 &lt; X-Frame-Options: DENY
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; Surrogate-Control: no-store
+2 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+2 &lt; Pragma: no-cache
+2 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+2 &lt; X-Trello-Version: 0.0.0
+2 &lt; X-Trello-Environment: Production
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+2 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+2 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+2 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Api-Token-Max: 100
+2 &lt; X-Rate-Limit-Api-Token-Remaining: 98
+2 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+2 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+2 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+2 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Api-Key-Max: 300
+2 &lt; X-Rate-Limit-Api-Key-Remaining: 298
+2 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Member-Max: 375
+2 &lt; X-Rate-Limit-Member-Remaining: 373
+2 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+2 &lt; X-Server-Time: 1683717383405
+2 &lt; Server: AtlassianEdge
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Xss-Protection: 1; mode=block
+2 &lt; Atl-Traceid: b41fdac2c6729b54
+2 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+2 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+2 &lt; Strict-Transport-Security: max-age=63072000; preload
+[{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb6&quot;,&quot;name&quot;:&quot;To Do&quot;,&quot;closed&quot;:false,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:16384,&quot;subscribed&quot;:false,&quot;softLimit&quot;:null,&quot;status&quot;:null},{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb7&quot;,&quot;name&quot;:&quot;Doing&quot;,&quot;closed&quot;:false,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:32768,&quot;subscribed&quot;:false,&quot;softLimit&quot;:null,&quot;status&quot;:null},{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb8&quot;,&quot;name&quot;:&quot;Done&quot;,&quot;closed&quot;:false,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:49152,&quot;subscribed&quot;:false,&quot;softLimit&quot;:null,&quot;status&quot;:null}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.24">16:46:26.656 [print] [
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105fb6&quot;,
+    &quot;name&quot;: &quot;To Do&quot;,
+    &quot;closed&quot;: false,
+    &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;pos&quot;: 16384,
+    &quot;subscribed&quot;: false,
+    &quot;softLimit&quot;: null,
+    &quot;status&quot;: null
+  },
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105fb7&quot;,
+    &quot;name&quot;: &quot;Doing&quot;,
+    &quot;closed&quot;: false,
+    &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;pos&quot;: 32768,
+    &quot;subscribed&quot;: false,
+    &quot;softLimit&quot;: null,
+    &quot;status&quot;: null
+  },
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105fb8&quot;,
+    &quot;name&quot;: &quot;Done&quot;,
+    &quot;closed&quot;: false,
+    &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;pos&quot;: 49152,
+    &quot;subscribed&quot;: false,
+    &quot;softLimit&quot;: null,
+    &quot;status&quot;: null
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def allLists = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Archive the lists</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/lists/&#39;, allLists[0].id, &#39;/closed&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param value = &#39;true&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method PUT</span>
+      </div>
+    </div>
+    <div class="time-cell passed">536</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.31">16:46:26.661 request:
+3 &gt; PUT https://api.trello.com/1/lists/645b7cd3918de67ae1105fb6/closed?value=true&amp;key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+3 &gt; Cookie: dsc=5c69ce0af7565ab5bbd483f02a69cd366e4833ad7cb9ec6ba12852ca522c2b2f; preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk
+3 &gt; Host: api.trello.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:27.194 response time in milliseconds: 531
+3 &lt; 200
+3 &lt; Date: Wed, 10 May 2023 11:16:23 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 125
+3 &lt; X-Dns-Prefetch-Control: off
+3 &lt; Expect-Ct: max-age=0
+3 &lt; X-Frame-Options: DENY
+3 &lt; X-Download-Options: noopen
+3 &lt; X-Permitted-Cross-Domain-Policies: none
+3 &lt; Referrer-Policy: strict-origin-when-cross-origin
+3 &lt; Surrogate-Control: no-store
+3 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+3 &lt; Pragma: no-cache
+3 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+3 &lt; X-Trello-Version: 0.0.0
+3 &lt; X-Trello-Environment: Production
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+3 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+3 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+3 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Api-Token-Max: 100
+3 &lt; X-Rate-Limit-Api-Token-Remaining: 97
+3 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+3 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+3 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+3 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Api-Key-Max: 300
+3 &lt; X-Rate-Limit-Api-Key-Remaining: 297
+3 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Member-Max: 375
+3 &lt; X-Rate-Limit-Member-Remaining: 372
+3 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+3 &lt; X-Server-Time: 1683717383945
+3 &lt; Server: AtlassianEdge
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Xss-Protection: 1; mode=block
+3 &lt; Atl-Traceid: 8d67b9f68450a270
+3 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+3 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+3 &lt; Strict-Transport-Security: max-age=63072000; preload
+{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb6&quot;,&quot;name&quot;:&quot;To Do&quot;,&quot;closed&quot;:true,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:16384,&quot;status&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.33">16:46:27.196 [print] {
+  &quot;id&quot;: &quot;645b7cd3918de67ae1105fb6&quot;,
+  &quot;name&quot;: &quot;To Do&quot;,
+  &quot;closed&quot;: true,
+  &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+  &quot;pos&quot;: 16384,
+  &quot;status&quot;: null
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:37]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:37]</span>
+                <span class="scenario-name">Archive lists</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2371</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:37]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://api.trello.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def keyVal = &#39;d331c6d0306950ea15c1be8870875a60&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.2:37]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenVal = &#39;ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Getting all the boards</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/members/me/boards&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1272</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.14">16:46:27.221 request:
+1 &gt; GET https://api.trello.com/1/members/me/boards?key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+1 &gt; Accept: application/json
+1 &gt; Host: api.trello.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:28.490 response time in milliseconds: 1267
+1 &lt; 200
+1 &lt; Date: Wed, 10 May 2023 11:16:25 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 4143
+1 &lt; X-Dns-Prefetch-Control: off
+1 &lt; Expect-Ct: max-age=0
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Surrogate-Control: no-store
+1 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+1 &lt; Pragma: no-cache
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+1 &lt; X-Trello-Version: 0.0.0
+1 &lt; X-Trello-Environment: Production
+1 &lt; Set-Cookie: dsc=aff2b73b8440cab6c770d67480dad4f46a4d2511ca62de494b9149596b7f1f6c; Path=/; Expires=Wed, 24 May 2023 11:16:25 GMT; Secure; SameSite=None
+1 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+1 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+1 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+1 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Token-Max: 100
+1 &lt; X-Rate-Limit-Api-Token-Remaining: 96
+1 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+1 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+1 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+1 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Key-Max: 300
+1 &lt; X-Rate-Limit-Api-Key-Remaining: 296
+1 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Member-Max: 375
+1 &lt; X-Rate-Limit-Member-Remaining: 371
+1 &lt; X-Server-Time: 1683717385228
+1 &lt; X-Trello-Actual-Fastget-Path: fast
+1 &lt; Server: AtlassianEdge
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; Atl-Traceid: bbc487231d4b0217
+1 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+1 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+1 &lt; Strict-Transport-Security: max-age=63072000; preload
+[{&quot;id&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;nodeId&quot;:&quot;ari:cloud:trello::board/workspace/63b3b2f7f9fe2105ff770280/645b7cd3918de67ae1105faf&quot;,&quot;name&quot;:&quot;Karate-Framework&quot;,&quot;desc&quot;:&quot;&quot;,&quot;descData&quot;:null,&quot;closed&quot;:false,&quot;dateClosed&quot;:null,&quot;idOrganization&quot;:&quot;63b3b2f7f9fe2105ff770280&quot;,&quot;idEnterprise&quot;:null,&quot;limits&quot;:{&quot;attachments&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:36000,&quot;warnAt&quot;:28800},&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000,&quot;warnAt&quot;:800}},&quot;boards&quot;:{&quot;totalMembersPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1600,&quot;warnAt&quot;:1280},&quot;totalAccessRequestsPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:4000,&quot;warnAt&quot;:3200}},&quot;cards&quot;:{&quot;openPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:5000,&quot;warnAt&quot;:4000},&quot;openPerList&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:5000,&quot;warnAt&quot;:4000},&quot;totalPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:2000000,&quot;warnAt&quot;:1600000},&quot;totalPerList&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000000,&quot;warnAt&quot;:800000}},&quot;checklists&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1800000,&quot;warnAt&quot;:1440000},&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:500,&quot;warnAt&quot;:400}},&quot;checkItems&quot;:{&quot;perChecklist&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:200,&quot;warnAt&quot;:160}},&quot;customFields&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:50,&quot;warnAt&quot;:40}},&quot;customFieldOptions&quot;:{&quot;perField&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:50,&quot;warnAt&quot;:40}},&quot;labels&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000,&quot;warnAt&quot;:800}},&quot;lists&quot;:{&quot;openPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:500,&quot;warnAt&quot;:400},&quot;totalPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:3000,&quot;warnAt&quot;:2400}},&quot;stickers&quot;:{&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:70,&quot;warnAt&quot;:56}},&quot;reactions&quot;:{&quot;perAction&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:900,&quot;warnAt&quot;:720},&quot;uniquePerAction&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:17,&quot;warnAt&quot;:14}}},&quot;pinned&quot;:false,&quot;starred&quot;:false,&quot;url&quot;:&quot;https://trello.com/b/2LXTEX3H/karate-framework&quot;,&quot;prefs&quot;:{&quot;permissionLevel&quot;:&quot;private&quot;,&quot;hideVotes&quot;:false,&quot;voting&quot;:&quot;disabled&quot;,&quot;comments&quot;:&quot;members&quot;,&quot;invitations&quot;:&quot;members&quot;,&quot;selfJoin&quot;:true,&quot;cardCovers&quot;:true,&quot;isTemplate&quot;:false,&quot;cardAging&quot;:&quot;regular&quot;,&quot;calendarFeedEnabled&quot;:false,&quot;hiddenPluginBoardButtons&quot;:[],&quot;switcherViews&quot;:[{&quot;viewType&quot;:&quot;Board&quot;,&quot;enabled&quot;:true,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb0&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb0&quot;},{&quot;viewType&quot;:&quot;Table&quot;,&quot;enabled&quot;:true,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb1&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb1&quot;},{&quot;viewType&quot;:&quot;Calendar&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb2&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb2&quot;},{&quot;viewType&quot;:&quot;Dashboard&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb3&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb3&quot;},{&quot;viewType&quot;:&quot;Timeline&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb4&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb4&quot;},{&quot;viewType&quot;:&quot;Map&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb5&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb5&quot;}],&quot;background&quot;:&quot;blue&quot;,&quot;backgroundColor&quot;:&quot;#0079BF&quot;,&quot;backgroundImage&quot;:null,&quot;backgroundImageScaled&quot;:null,&quot;backgroundTile&quot;:false,&quot;backgroundBrightness&quot;:&quot;dark&quot;,&quot;backgroundBottomColor&quot;:&quot;#0079BF&quot;,&quot;backgroundTopColor&quot;:&quot;#0079BF&quot;,&quot;canBePublic&quot;:true,&quot;canBeEnterprise&quot;:true,&quot;canBeOrg&quot;:true,&quot;canBePrivate&quot;:true,&quot;canInvite&quot;:true},&quot;shortLink&quot;:&quot;2LXTEX3H&quot;,&quot;subscribed&quot;:false,&quot;labelNames&quot;:{&quot;green&quot;:&quot;&quot;,&quot;yellow&quot;:&quot;&quot;,&quot;orange&quot;:&quot;&quot;,&quot;red&quot;:&quot;&quot;,&quot;purple&quot;:&quot;&quot;,&quot;blue&quot;:&quot;&quot;,&quot;sky&quot;:&quot;&quot;,&quot;lime&quot;:&quot;&quot;,&quot;pink&quot;:&quot;&quot;,&quot;black&quot;:&quot;&quot;,&quot;green_dark&quot;:&quot;&quot;,&quot;yellow_dark&quot;:&quot;&quot;,&quot;orange_dark&quot;:&quot;&quot;,&quot;red_dark&quot;:&quot;&quot;,&quot;purple_dark&quot;:&quot;&quot;,&quot;blue_dark&quot;:&quot;&quot;,&quot;sky_dark&quot;:&quot;&quot;,&quot;lime_dark&quot;:&quot;&quot;,&quot;pink_dark&quot;:&quot;&quot;,&quot;black_dark&quot;:&quot;&quot;,&quot;green_light&quot;:&quot;&quot;,&quot;yellow_light&quot;:&quot;&quot;,&quot;orange_light&quot;:&quot;&quot;,&quot;red_light&quot;:&quot;&quot;,&quot;purple_light&quot;:&quot;&quot;,&quot;blue_light&quot;:&quot;&quot;,&quot;sky_light&quot;:&quot;&quot;,&quot;lime_light&quot;:&quot;&quot;,&quot;pink_light&quot;:&quot;&quot;,&quot;black_light&quot;:&quot;&quot;},&quot;powerUps&quot;:[],&quot;dateLastActivity&quot;:null,&quot;dateLastView&quot;:&quot;2023-05-10T11:16:23.946Z&quot;,&quot;shortUrl&quot;:&quot;https://trello.com/b/2LXTEX3H&quot;,&quot;idTags&quot;:[],&quot;datePluginDisable&quot;:null,&quot;creationMethod&quot;:&quot;automatic&quot;,&quot;ixUpdate&quot;:&quot;5&quot;,&quot;templateGallery&quot;:null,&quot;enterpriseOwned&quot;:false,&quot;idBoardSource&quot;:null,&quot;premiumFeatures&quot;:[&quot;additionalBoardBackgrounds&quot;,&quot;additionalStickers&quot;,&quot;customBoardBackgrounds&quot;,&quot;customEmoji&quot;,&quot;customStickers&quot;,&quot;plugins&quot;],&quot;idMemberCreator&quot;:&quot;63b3b2edb721b104190b8817&quot;,&quot;memberships&quot;:[{&quot;idMember&quot;:&quot;63b3b2edb721b104190b8817&quot;,&quot;memberType&quot;:&quot;admin&quot;,&quot;unconfirmed&quot;:false,&quot;deactivated&quot;:false,&quot;id&quot;:&quot;645b7cd3918de67ae1105fba&quot;}]}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.16">16:46:28.494 [print] [
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;nodeId&quot;: &quot;ari:cloud:trello::board/workspace/63b3b2f7f9fe2105ff770280/645b7cd3918de67ae1105faf&quot;,
+    &quot;name&quot;: &quot;Karate-Framework&quot;,
+    &quot;desc&quot;: &quot;&quot;,
+    &quot;descData&quot;: null,
+    &quot;closed&quot;: false,
+    &quot;dateClosed&quot;: null,
+    &quot;idOrganization&quot;: &quot;63b3b2f7f9fe2105ff770280&quot;,
+    &quot;idEnterprise&quot;: null,
+    &quot;limits&quot;: {
+      &quot;attachments&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 36000,
+          &quot;warnAt&quot;: 28800
+        },
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000,
+          &quot;warnAt&quot;: 800
+        }
+      },
+      &quot;boards&quot;: {
+        &quot;totalMembersPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1600,
+          &quot;warnAt&quot;: 1280
+        },
+        &quot;totalAccessRequestsPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 4000,
+          &quot;warnAt&quot;: 3200
+        }
+      },
+      &quot;cards&quot;: {
+        &quot;openPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 5000,
+          &quot;warnAt&quot;: 4000
+        },
+        &quot;openPerList&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 5000,
+          &quot;warnAt&quot;: 4000
+        },
+        &quot;totalPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 2000000,
+          &quot;warnAt&quot;: 1600000
+        },
+        &quot;totalPerList&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000000,
+          &quot;warnAt&quot;: 800000
+        }
+      },
+      &quot;checklists&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1800000,
+          &quot;warnAt&quot;: 1440000
+        },
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 500,
+          &quot;warnAt&quot;: 400
+        }
+      },
+      &quot;checkItems&quot;: {
+        &quot;perChecklist&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 200,
+          &quot;warnAt&quot;: 160
+        }
+      },
+      &quot;customFields&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 50,
+          &quot;warnAt&quot;: 40
+        }
+      },
+      &quot;customFieldOptions&quot;: {
+        &quot;perField&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 50,
+          &quot;warnAt&quot;: 40
+        }
+      },
+      &quot;labels&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000,
+          &quot;warnAt&quot;: 800
+        }
+      },
+      &quot;lists&quot;: {
+        &quot;openPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 500,
+          &quot;warnAt&quot;: 400
+        },
+        &quot;totalPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 3000,
+          &quot;warnAt&quot;: 2400
+        }
+      },
+      &quot;stickers&quot;: {
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 70,
+          &quot;warnAt&quot;: 56
+        }
+      },
+      &quot;reactions&quot;: {
+        &quot;perAction&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 900,
+          &quot;warnAt&quot;: 720
+        },
+        &quot;uniquePerAction&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 17,
+          &quot;warnAt&quot;: 14
+        }
+      }
+    },
+    &quot;pinned&quot;: false,
+    &quot;starred&quot;: false,
+    &quot;url&quot;: &quot;https://trello.com/b/2LXTEX3H/karate-framework&quot;,
+    &quot;prefs&quot;: {
+      &quot;permissionLevel&quot;: &quot;private&quot;,
+      &quot;hideVotes&quot;: false,
+      &quot;voting&quot;: &quot;disabled&quot;,
+      &quot;comments&quot;: &quot;members&quot;,
+      &quot;invitations&quot;: &quot;members&quot;,
+      &quot;selfJoin&quot;: true,
+      &quot;cardCovers&quot;: true,
+      &quot;isTemplate&quot;: false,
+      &quot;cardAging&quot;: &quot;regular&quot;,
+      &quot;calendarFeedEnabled&quot;: false,
+      &quot;hiddenPluginBoardButtons&quot;: [
+      ],
+      &quot;switcherViews&quot;: [
+        {
+          &quot;viewType&quot;: &quot;Board&quot;,
+          &quot;enabled&quot;: true,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb0&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb0&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Table&quot;,
+          &quot;enabled&quot;: true,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb1&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb1&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Calendar&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb2&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb2&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Dashboard&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb3&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb3&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Timeline&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb4&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb4&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Map&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb5&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb5&quot;
+        }
+      ],
+      &quot;background&quot;: &quot;blue&quot;,
+      &quot;backgroundColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundImage&quot;: null,
+      &quot;backgroundImageScaled&quot;: null,
+      &quot;backgroundTile&quot;: false,
+      &quot;backgroundBrightness&quot;: &quot;dark&quot;,
+      &quot;backgroundBottomColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundTopColor&quot;: &quot;#0079BF&quot;,
+      &quot;canBePublic&quot;: true,
+      &quot;canBeEnterprise&quot;: true,
+      &quot;canBeOrg&quot;: true,
+      &quot;canBePrivate&quot;: true,
+      &quot;canInvite&quot;: true
+    },
+    &quot;shortLink&quot;: &quot;2LXTEX3H&quot;,
+    &quot;subscribed&quot;: false,
+    &quot;labelNames&quot;: {
+      &quot;green&quot;: &quot;&quot;,
+      &quot;yellow&quot;: &quot;&quot;,
+      &quot;orange&quot;: &quot;&quot;,
+      &quot;red&quot;: &quot;&quot;,
+      &quot;purple&quot;: &quot;&quot;,
+      &quot;blue&quot;: &quot;&quot;,
+      &quot;sky&quot;: &quot;&quot;,
+      &quot;lime&quot;: &quot;&quot;,
+      &quot;pink&quot;: &quot;&quot;,
+      &quot;black&quot;: &quot;&quot;,
+      &quot;green_dark&quot;: &quot;&quot;,
+      &quot;yellow_dark&quot;: &quot;&quot;,
+      &quot;orange_dark&quot;: &quot;&quot;,
+      &quot;red_dark&quot;: &quot;&quot;,
+      &quot;purple_dark&quot;: &quot;&quot;,
+      &quot;blue_dark&quot;: &quot;&quot;,
+      &quot;sky_dark&quot;: &quot;&quot;,
+      &quot;lime_dark&quot;: &quot;&quot;,
+      &quot;pink_dark&quot;: &quot;&quot;,
+      &quot;black_dark&quot;: &quot;&quot;,
+      &quot;green_light&quot;: &quot;&quot;,
+      &quot;yellow_light&quot;: &quot;&quot;,
+      &quot;orange_light&quot;: &quot;&quot;,
+      &quot;red_light&quot;: &quot;&quot;,
+      &quot;purple_light&quot;: &quot;&quot;,
+      &quot;blue_light&quot;: &quot;&quot;,
+      &quot;sky_light&quot;: &quot;&quot;,
+      &quot;lime_light&quot;: &quot;&quot;,
+      &quot;pink_light&quot;: &quot;&quot;,
+      &quot;black_light&quot;: &quot;&quot;
+    },
+    &quot;powerUps&quot;: [
+    ],
+    &quot;dateLastActivity&quot;: null,
+    &quot;dateLastView&quot;: &quot;2023-05-10T11:16:23.946Z&quot;,
+    &quot;shortUrl&quot;: &quot;https://trello.com/b/2LXTEX3H&quot;,
+    &quot;idTags&quot;: [
+    ],
+    &quot;datePluginDisable&quot;: null,
+    &quot;creationMethod&quot;: &quot;automatic&quot;,
+    &quot;ixUpdate&quot;: &quot;5&quot;,
+    &quot;templateGallery&quot;: null,
+    &quot;enterpriseOwned&quot;: false,
+    &quot;idBoardSource&quot;: null,
+    &quot;premiumFeatures&quot;: [
+      &quot;additionalBoardBackgrounds&quot;,
+      &quot;additionalStickers&quot;,
+      &quot;customBoardBackgrounds&quot;,
+      &quot;customEmoji&quot;,
+      &quot;customStickers&quot;,
+      &quot;plugins&quot;
+    ],
+    &quot;idMemberCreator&quot;: &quot;63b3b2edb721b104190b8817&quot;,
+    &quot;memberships&quot;: [
+      {
+        &quot;idMember&quot;: &quot;63b3b2edb721b104190b8817&quot;,
+        &quot;memberType&quot;: &quot;admin&quot;,
+        &quot;unconfirmed&quot;: false,
+        &quot;deactivated&quot;: false,
+        &quot;id&quot;: &quot;645b7cd3918de67ae1105fba&quot;
+      }
+    ]
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def allBoards = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Getting the lists on board</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/boards/&#39;, allBoards[0].id, &#39;/lists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">536</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.22">16:46:28.506 request:
+2 &gt; GET https://api.trello.com/1/boards/645b7cd3918de67ae1105faf/lists?key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+2 &gt; Cookie: dsc=aff2b73b8440cab6c770d67480dad4f46a4d2511ca62de494b9149596b7f1f6c; preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk
+2 &gt; Host: api.trello.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:29.032 response time in milliseconds: 525
+2 &lt; 200
+2 &lt; Date: Wed, 10 May 2023 11:16:25 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 326
+2 &lt; X-Dns-Prefetch-Control: off
+2 &lt; Expect-Ct: max-age=0
+2 &lt; X-Frame-Options: DENY
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; Surrogate-Control: no-store
+2 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+2 &lt; Pragma: no-cache
+2 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+2 &lt; X-Trello-Version: 0.0.0
+2 &lt; X-Trello-Environment: Production
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+2 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+2 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+2 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Api-Token-Max: 100
+2 &lt; X-Rate-Limit-Api-Token-Remaining: 95
+2 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+2 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+2 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+2 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Api-Key-Max: 300
+2 &lt; X-Rate-Limit-Api-Key-Remaining: 295
+2 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Member-Max: 375
+2 &lt; X-Rate-Limit-Member-Remaining: 370
+2 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+2 &lt; X-Server-Time: 1683717385785
+2 &lt; Server: AtlassianEdge
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Xss-Protection: 1; mode=block
+2 &lt; Atl-Traceid: bcd706e923aed53e
+2 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+2 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+2 &lt; Strict-Transport-Security: max-age=63072000; preload
+[{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb7&quot;,&quot;name&quot;:&quot;Doing&quot;,&quot;closed&quot;:false,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:32768,&quot;subscribed&quot;:false,&quot;softLimit&quot;:null,&quot;status&quot;:null},{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb8&quot;,&quot;name&quot;:&quot;Done&quot;,&quot;closed&quot;:false,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:49152,&quot;subscribed&quot;:false,&quot;softLimit&quot;:null,&quot;status&quot;:null}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.24">16:46:29.034 [print] [
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105fb7&quot;,
+    &quot;name&quot;: &quot;Doing&quot;,
+    &quot;closed&quot;: false,
+    &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;pos&quot;: 32768,
+    &quot;subscribed&quot;: false,
+    &quot;softLimit&quot;: null,
+    &quot;status&quot;: null
+  },
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105fb8&quot;,
+    &quot;name&quot;: &quot;Done&quot;,
+    &quot;closed&quot;: false,
+    &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;pos&quot;: 49152,
+    &quot;subscribed&quot;: false,
+    &quot;softLimit&quot;: null,
+    &quot;status&quot;: null
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def allLists = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Archive the lists</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/lists/&#39;, allLists[0].id, &#39;/closed&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param value = &#39;true&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method PUT</span>
+      </div>
+    </div>
+    <div class="time-cell passed">552</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.31">16:46:29.038 request:
+3 &gt; PUT https://api.trello.com/1/lists/645b7cd3918de67ae1105fb7/closed?value=true&amp;key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+3 &gt; Cookie: dsc=aff2b73b8440cab6c770d67480dad4f46a4d2511ca62de494b9149596b7f1f6c; preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk
+3 &gt; Host: api.trello.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:29.587 response time in milliseconds: 548
+3 &lt; 200
+3 &lt; Date: Wed, 10 May 2023 11:16:26 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 125
+3 &lt; X-Dns-Prefetch-Control: off
+3 &lt; Expect-Ct: max-age=0
+3 &lt; X-Frame-Options: DENY
+3 &lt; X-Download-Options: noopen
+3 &lt; X-Permitted-Cross-Domain-Policies: none
+3 &lt; Referrer-Policy: strict-origin-when-cross-origin
+3 &lt; Surrogate-Control: no-store
+3 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+3 &lt; Pragma: no-cache
+3 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+3 &lt; X-Trello-Version: 0.0.0
+3 &lt; X-Trello-Environment: Production
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+3 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+3 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+3 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+3 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+3 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+3 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Api-Token-Max: 100
+3 &lt; X-Rate-Limit-Api-Token-Remaining: 94
+3 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Api-Key-Max: 300
+3 &lt; X-Rate-Limit-Api-Key-Remaining: 294
+3 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Member-Max: 375
+3 &lt; X-Rate-Limit-Member-Remaining: 369
+3 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+3 &lt; X-Server-Time: 1683717386337
+3 &lt; Server: AtlassianEdge
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Xss-Protection: 1; mode=block
+3 &lt; Atl-Traceid: ac4fb9c31f65ae8e
+3 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+3 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+3 &lt; Strict-Transport-Security: max-age=63072000; preload
+{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb7&quot;,&quot;name&quot;:&quot;Doing&quot;,&quot;closed&quot;:true,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:32768,&quot;status&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.33">16:46:29.589 [print] {
+  &quot;id&quot;: &quot;645b7cd3918de67ae1105fb7&quot;,
+  &quot;name&quot;: &quot;Doing&quot;,
+  &quot;closed&quot;: true,
+  &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+  &quot;pos&quot;: 32768,
+  &quot;status&quot;: null
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:38]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:38]</span>
+                <span class="scenario-name">Archive lists</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1876</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:38]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://api.trello.com&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def keyVal = &#39;d331c6d0306950ea15c1be8870875a60&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1.3:38]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenVal = &#39;ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Getting all the boards</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/members/me/boards&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">563</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.14">16:46:29.599 request:
+1 &gt; GET https://api.trello.com/1/members/me/boards?key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+1 &gt; Accept: application/json
+1 &gt; Host: api.trello.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:30.160 response time in milliseconds: 559
+1 &lt; 200
+1 &lt; Date: Wed, 10 May 2023 11:16:26 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 4143
+1 &lt; X-Dns-Prefetch-Control: off
+1 &lt; Expect-Ct: max-age=0
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Download-Options: noopen
+1 &lt; X-Permitted-Cross-Domain-Policies: none
+1 &lt; Referrer-Policy: strict-origin-when-cross-origin
+1 &lt; Surrogate-Control: no-store
+1 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+1 &lt; Pragma: no-cache
+1 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+1 &lt; X-Trello-Version: 0.0.0
+1 &lt; X-Trello-Environment: Production
+1 &lt; Set-Cookie: dsc=3b945258203de7c5a0a761ec6f42bcd521237f6590cf978013f9e42b36ed0c9d; Path=/; Expires=Wed, 24 May 2023 11:16:26 GMT; Secure; SameSite=None
+1 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+1 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+1 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+1 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Token-Max: 100
+1 &lt; X-Rate-Limit-Api-Token-Remaining: 93
+1 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+1 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+1 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+1 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Api-Key-Max: 300
+1 &lt; X-Rate-Limit-Api-Key-Remaining: 293
+1 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+1 &lt; X-Rate-Limit-Member-Max: 375
+1 &lt; X-Rate-Limit-Member-Remaining: 368
+1 &lt; X-Server-Time: 1683717386909
+1 &lt; X-Trello-Actual-Fastget-Path: fast
+1 &lt; Server: AtlassianEdge
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Xss-Protection: 1; mode=block
+1 &lt; Atl-Traceid: 90b2f9e6752ee58d
+1 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+1 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+1 &lt; Strict-Transport-Security: max-age=63072000; preload
+[{&quot;id&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;nodeId&quot;:&quot;ari:cloud:trello::board/workspace/63b3b2f7f9fe2105ff770280/645b7cd3918de67ae1105faf&quot;,&quot;name&quot;:&quot;Karate-Framework&quot;,&quot;desc&quot;:&quot;&quot;,&quot;descData&quot;:null,&quot;closed&quot;:false,&quot;dateClosed&quot;:null,&quot;idOrganization&quot;:&quot;63b3b2f7f9fe2105ff770280&quot;,&quot;idEnterprise&quot;:null,&quot;limits&quot;:{&quot;attachments&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:36000,&quot;warnAt&quot;:28800},&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000,&quot;warnAt&quot;:800}},&quot;boards&quot;:{&quot;totalMembersPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1600,&quot;warnAt&quot;:1280},&quot;totalAccessRequestsPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:4000,&quot;warnAt&quot;:3200}},&quot;cards&quot;:{&quot;openPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:5000,&quot;warnAt&quot;:4000},&quot;openPerList&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:5000,&quot;warnAt&quot;:4000},&quot;totalPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:2000000,&quot;warnAt&quot;:1600000},&quot;totalPerList&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000000,&quot;warnAt&quot;:800000}},&quot;checklists&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1800000,&quot;warnAt&quot;:1440000},&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:500,&quot;warnAt&quot;:400}},&quot;checkItems&quot;:{&quot;perChecklist&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:200,&quot;warnAt&quot;:160}},&quot;customFields&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:50,&quot;warnAt&quot;:40}},&quot;customFieldOptions&quot;:{&quot;perField&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:50,&quot;warnAt&quot;:40}},&quot;labels&quot;:{&quot;perBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:1000,&quot;warnAt&quot;:800}},&quot;lists&quot;:{&quot;openPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:500,&quot;warnAt&quot;:400},&quot;totalPerBoard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:3000,&quot;warnAt&quot;:2400}},&quot;stickers&quot;:{&quot;perCard&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:70,&quot;warnAt&quot;:56}},&quot;reactions&quot;:{&quot;perAction&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:900,&quot;warnAt&quot;:720},&quot;uniquePerAction&quot;:{&quot;status&quot;:&quot;ok&quot;,&quot;disableAt&quot;:17,&quot;warnAt&quot;:14}}},&quot;pinned&quot;:false,&quot;starred&quot;:false,&quot;url&quot;:&quot;https://trello.com/b/2LXTEX3H/karate-framework&quot;,&quot;prefs&quot;:{&quot;permissionLevel&quot;:&quot;private&quot;,&quot;hideVotes&quot;:false,&quot;voting&quot;:&quot;disabled&quot;,&quot;comments&quot;:&quot;members&quot;,&quot;invitations&quot;:&quot;members&quot;,&quot;selfJoin&quot;:true,&quot;cardCovers&quot;:true,&quot;isTemplate&quot;:false,&quot;cardAging&quot;:&quot;regular&quot;,&quot;calendarFeedEnabled&quot;:false,&quot;hiddenPluginBoardButtons&quot;:[],&quot;switcherViews&quot;:[{&quot;viewType&quot;:&quot;Board&quot;,&quot;enabled&quot;:true,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb0&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb0&quot;},{&quot;viewType&quot;:&quot;Table&quot;,&quot;enabled&quot;:true,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb1&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb1&quot;},{&quot;viewType&quot;:&quot;Calendar&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb2&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb2&quot;},{&quot;viewType&quot;:&quot;Dashboard&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb3&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb3&quot;},{&quot;viewType&quot;:&quot;Timeline&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb4&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb4&quot;},{&quot;viewType&quot;:&quot;Map&quot;,&quot;enabled&quot;:false,&quot;_id&quot;:&quot;645b7cd3918de67ae1105fb5&quot;,&quot;typeName&quot;:&quot;SwitcherViews&quot;,&quot;id&quot;:&quot;645b7cd3918de67ae1105fb5&quot;}],&quot;background&quot;:&quot;blue&quot;,&quot;backgroundColor&quot;:&quot;#0079BF&quot;,&quot;backgroundImage&quot;:null,&quot;backgroundImageScaled&quot;:null,&quot;backgroundTile&quot;:false,&quot;backgroundBrightness&quot;:&quot;dark&quot;,&quot;backgroundBottomColor&quot;:&quot;#0079BF&quot;,&quot;backgroundTopColor&quot;:&quot;#0079BF&quot;,&quot;canBePublic&quot;:true,&quot;canBeEnterprise&quot;:true,&quot;canBeOrg&quot;:true,&quot;canBePrivate&quot;:true,&quot;canInvite&quot;:true},&quot;shortLink&quot;:&quot;2LXTEX3H&quot;,&quot;subscribed&quot;:false,&quot;labelNames&quot;:{&quot;green&quot;:&quot;&quot;,&quot;yellow&quot;:&quot;&quot;,&quot;orange&quot;:&quot;&quot;,&quot;red&quot;:&quot;&quot;,&quot;purple&quot;:&quot;&quot;,&quot;blue&quot;:&quot;&quot;,&quot;sky&quot;:&quot;&quot;,&quot;lime&quot;:&quot;&quot;,&quot;pink&quot;:&quot;&quot;,&quot;black&quot;:&quot;&quot;,&quot;green_dark&quot;:&quot;&quot;,&quot;yellow_dark&quot;:&quot;&quot;,&quot;orange_dark&quot;:&quot;&quot;,&quot;red_dark&quot;:&quot;&quot;,&quot;purple_dark&quot;:&quot;&quot;,&quot;blue_dark&quot;:&quot;&quot;,&quot;sky_dark&quot;:&quot;&quot;,&quot;lime_dark&quot;:&quot;&quot;,&quot;pink_dark&quot;:&quot;&quot;,&quot;black_dark&quot;:&quot;&quot;,&quot;green_light&quot;:&quot;&quot;,&quot;yellow_light&quot;:&quot;&quot;,&quot;orange_light&quot;:&quot;&quot;,&quot;red_light&quot;:&quot;&quot;,&quot;purple_light&quot;:&quot;&quot;,&quot;blue_light&quot;:&quot;&quot;,&quot;sky_light&quot;:&quot;&quot;,&quot;lime_light&quot;:&quot;&quot;,&quot;pink_light&quot;:&quot;&quot;,&quot;black_light&quot;:&quot;&quot;},&quot;powerUps&quot;:[],&quot;dateLastActivity&quot;:null,&quot;dateLastView&quot;:&quot;2023-05-10T11:16:26.338Z&quot;,&quot;shortUrl&quot;:&quot;https://trello.com/b/2LXTEX3H&quot;,&quot;idTags&quot;:[],&quot;datePluginDisable&quot;:null,&quot;creationMethod&quot;:&quot;automatic&quot;,&quot;ixUpdate&quot;:&quot;7&quot;,&quot;templateGallery&quot;:null,&quot;enterpriseOwned&quot;:false,&quot;idBoardSource&quot;:null,&quot;premiumFeatures&quot;:[&quot;additionalBoardBackgrounds&quot;,&quot;additionalStickers&quot;,&quot;customBoardBackgrounds&quot;,&quot;customEmoji&quot;,&quot;customStickers&quot;,&quot;plugins&quot;],&quot;idMemberCreator&quot;:&quot;63b3b2edb721b104190b8817&quot;,&quot;memberships&quot;:[{&quot;idMember&quot;:&quot;63b3b2edb721b104190b8817&quot;,&quot;memberType&quot;:&quot;admin&quot;,&quot;unconfirmed&quot;:false,&quot;deactivated&quot;:false,&quot;id&quot;:&quot;645b7cd3918de67ae1105fba&quot;}]}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.16">16:46:30.162 [print] [
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;nodeId&quot;: &quot;ari:cloud:trello::board/workspace/63b3b2f7f9fe2105ff770280/645b7cd3918de67ae1105faf&quot;,
+    &quot;name&quot;: &quot;Karate-Framework&quot;,
+    &quot;desc&quot;: &quot;&quot;,
+    &quot;descData&quot;: null,
+    &quot;closed&quot;: false,
+    &quot;dateClosed&quot;: null,
+    &quot;idOrganization&quot;: &quot;63b3b2f7f9fe2105ff770280&quot;,
+    &quot;idEnterprise&quot;: null,
+    &quot;limits&quot;: {
+      &quot;attachments&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 36000,
+          &quot;warnAt&quot;: 28800
+        },
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000,
+          &quot;warnAt&quot;: 800
+        }
+      },
+      &quot;boards&quot;: {
+        &quot;totalMembersPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1600,
+          &quot;warnAt&quot;: 1280
+        },
+        &quot;totalAccessRequestsPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 4000,
+          &quot;warnAt&quot;: 3200
+        }
+      },
+      &quot;cards&quot;: {
+        &quot;openPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 5000,
+          &quot;warnAt&quot;: 4000
+        },
+        &quot;openPerList&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 5000,
+          &quot;warnAt&quot;: 4000
+        },
+        &quot;totalPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 2000000,
+          &quot;warnAt&quot;: 1600000
+        },
+        &quot;totalPerList&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000000,
+          &quot;warnAt&quot;: 800000
+        }
+      },
+      &quot;checklists&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1800000,
+          &quot;warnAt&quot;: 1440000
+        },
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 500,
+          &quot;warnAt&quot;: 400
+        }
+      },
+      &quot;checkItems&quot;: {
+        &quot;perChecklist&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 200,
+          &quot;warnAt&quot;: 160
+        }
+      },
+      &quot;customFields&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 50,
+          &quot;warnAt&quot;: 40
+        }
+      },
+      &quot;customFieldOptions&quot;: {
+        &quot;perField&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 50,
+          &quot;warnAt&quot;: 40
+        }
+      },
+      &quot;labels&quot;: {
+        &quot;perBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 1000,
+          &quot;warnAt&quot;: 800
+        }
+      },
+      &quot;lists&quot;: {
+        &quot;openPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 500,
+          &quot;warnAt&quot;: 400
+        },
+        &quot;totalPerBoard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 3000,
+          &quot;warnAt&quot;: 2400
+        }
+      },
+      &quot;stickers&quot;: {
+        &quot;perCard&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 70,
+          &quot;warnAt&quot;: 56
+        }
+      },
+      &quot;reactions&quot;: {
+        &quot;perAction&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 900,
+          &quot;warnAt&quot;: 720
+        },
+        &quot;uniquePerAction&quot;: {
+          &quot;status&quot;: &quot;ok&quot;,
+          &quot;disableAt&quot;: 17,
+          &quot;warnAt&quot;: 14
+        }
+      }
+    },
+    &quot;pinned&quot;: false,
+    &quot;starred&quot;: false,
+    &quot;url&quot;: &quot;https://trello.com/b/2LXTEX3H/karate-framework&quot;,
+    &quot;prefs&quot;: {
+      &quot;permissionLevel&quot;: &quot;private&quot;,
+      &quot;hideVotes&quot;: false,
+      &quot;voting&quot;: &quot;disabled&quot;,
+      &quot;comments&quot;: &quot;members&quot;,
+      &quot;invitations&quot;: &quot;members&quot;,
+      &quot;selfJoin&quot;: true,
+      &quot;cardCovers&quot;: true,
+      &quot;isTemplate&quot;: false,
+      &quot;cardAging&quot;: &quot;regular&quot;,
+      &quot;calendarFeedEnabled&quot;: false,
+      &quot;hiddenPluginBoardButtons&quot;: [
+      ],
+      &quot;switcherViews&quot;: [
+        {
+          &quot;viewType&quot;: &quot;Board&quot;,
+          &quot;enabled&quot;: true,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb0&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb0&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Table&quot;,
+          &quot;enabled&quot;: true,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb1&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb1&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Calendar&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb2&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb2&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Dashboard&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb3&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb3&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Timeline&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb4&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb4&quot;
+        },
+        {
+          &quot;viewType&quot;: &quot;Map&quot;,
+          &quot;enabled&quot;: false,
+          &quot;_id&quot;: &quot;645b7cd3918de67ae1105fb5&quot;,
+          &quot;typeName&quot;: &quot;SwitcherViews&quot;,
+          &quot;id&quot;: &quot;645b7cd3918de67ae1105fb5&quot;
+        }
+      ],
+      &quot;background&quot;: &quot;blue&quot;,
+      &quot;backgroundColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundImage&quot;: null,
+      &quot;backgroundImageScaled&quot;: null,
+      &quot;backgroundTile&quot;: false,
+      &quot;backgroundBrightness&quot;: &quot;dark&quot;,
+      &quot;backgroundBottomColor&quot;: &quot;#0079BF&quot;,
+      &quot;backgroundTopColor&quot;: &quot;#0079BF&quot;,
+      &quot;canBePublic&quot;: true,
+      &quot;canBeEnterprise&quot;: true,
+      &quot;canBeOrg&quot;: true,
+      &quot;canBePrivate&quot;: true,
+      &quot;canInvite&quot;: true
+    },
+    &quot;shortLink&quot;: &quot;2LXTEX3H&quot;,
+    &quot;subscribed&quot;: false,
+    &quot;labelNames&quot;: {
+      &quot;green&quot;: &quot;&quot;,
+      &quot;yellow&quot;: &quot;&quot;,
+      &quot;orange&quot;: &quot;&quot;,
+      &quot;red&quot;: &quot;&quot;,
+      &quot;purple&quot;: &quot;&quot;,
+      &quot;blue&quot;: &quot;&quot;,
+      &quot;sky&quot;: &quot;&quot;,
+      &quot;lime&quot;: &quot;&quot;,
+      &quot;pink&quot;: &quot;&quot;,
+      &quot;black&quot;: &quot;&quot;,
+      &quot;green_dark&quot;: &quot;&quot;,
+      &quot;yellow_dark&quot;: &quot;&quot;,
+      &quot;orange_dark&quot;: &quot;&quot;,
+      &quot;red_dark&quot;: &quot;&quot;,
+      &quot;purple_dark&quot;: &quot;&quot;,
+      &quot;blue_dark&quot;: &quot;&quot;,
+      &quot;sky_dark&quot;: &quot;&quot;,
+      &quot;lime_dark&quot;: &quot;&quot;,
+      &quot;pink_dark&quot;: &quot;&quot;,
+      &quot;black_dark&quot;: &quot;&quot;,
+      &quot;green_light&quot;: &quot;&quot;,
+      &quot;yellow_light&quot;: &quot;&quot;,
+      &quot;orange_light&quot;: &quot;&quot;,
+      &quot;red_light&quot;: &quot;&quot;,
+      &quot;purple_light&quot;: &quot;&quot;,
+      &quot;blue_light&quot;: &quot;&quot;,
+      &quot;sky_light&quot;: &quot;&quot;,
+      &quot;lime_light&quot;: &quot;&quot;,
+      &quot;pink_light&quot;: &quot;&quot;,
+      &quot;black_light&quot;: &quot;&quot;
+    },
+    &quot;powerUps&quot;: [
+    ],
+    &quot;dateLastActivity&quot;: null,
+    &quot;dateLastView&quot;: &quot;2023-05-10T11:16:26.338Z&quot;,
+    &quot;shortUrl&quot;: &quot;https://trello.com/b/2LXTEX3H&quot;,
+    &quot;idTags&quot;: [
+    ],
+    &quot;datePluginDisable&quot;: null,
+    &quot;creationMethod&quot;: &quot;automatic&quot;,
+    &quot;ixUpdate&quot;: &quot;7&quot;,
+    &quot;templateGallery&quot;: null,
+    &quot;enterpriseOwned&quot;: false,
+    &quot;idBoardSource&quot;: null,
+    &quot;premiumFeatures&quot;: [
+      &quot;additionalBoardBackgrounds&quot;,
+      &quot;additionalStickers&quot;,
+      &quot;customBoardBackgrounds&quot;,
+      &quot;customEmoji&quot;,
+      &quot;customStickers&quot;,
+      &quot;plugins&quot;
+    ],
+    &quot;idMemberCreator&quot;: &quot;63b3b2edb721b104190b8817&quot;,
+    &quot;memberships&quot;: [
+      {
+        &quot;idMember&quot;: &quot;63b3b2edb721b104190b8817&quot;,
+        &quot;memberType&quot;: &quot;admin&quot;,
+        &quot;unconfirmed&quot;: false,
+        &quot;deactivated&quot;: false,
+        &quot;id&quot;: &quot;645b7cd3918de67ae1105fba&quot;
+      }
+    ]
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def allBoards = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Getting the lists on board</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/boards/&#39;, allBoards[0].id, &#39;/lists&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">562</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.22">16:46:30.165 request:
+2 &gt; GET https://api.trello.com/1/boards/645b7cd3918de67ae1105faf/lists?key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+2 &gt; Cookie: dsc=3b945258203de7c5a0a761ec6f42bcd521237f6590cf978013f9e42b36ed0c9d; preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk
+2 &gt; Host: api.trello.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:30.725 response time in milliseconds: 559
+2 &lt; 200
+2 &lt; Date: Wed, 10 May 2023 11:16:27 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Content-Length: 163
+2 &lt; X-Dns-Prefetch-Control: off
+2 &lt; Expect-Ct: max-age=0
+2 &lt; X-Frame-Options: DENY
+2 &lt; X-Download-Options: noopen
+2 &lt; X-Permitted-Cross-Domain-Policies: none
+2 &lt; Referrer-Policy: strict-origin-when-cross-origin
+2 &lt; Surrogate-Control: no-store
+2 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+2 &lt; Pragma: no-cache
+2 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+2 &lt; X-Trello-Version: 0.0.0
+2 &lt; X-Trello-Environment: Production
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+2 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+2 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+2 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Api-Token-Max: 100
+2 &lt; X-Rate-Limit-Api-Token-Remaining: 92
+2 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+2 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+2 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+2 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Api-Key-Max: 300
+2 &lt; X-Rate-Limit-Api-Key-Remaining: 292
+2 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+2 &lt; X-Rate-Limit-Member-Max: 375
+2 &lt; X-Rate-Limit-Member-Remaining: 367
+2 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+2 &lt; X-Server-Time: 1683717387424
+2 &lt; Server: AtlassianEdge
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Xss-Protection: 1; mode=block
+2 &lt; Atl-Traceid: 9a00d40c8bd6cc1c
+2 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+2 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+2 &lt; Strict-Transport-Security: max-age=63072000; preload
+[{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb8&quot;,&quot;name&quot;:&quot;Done&quot;,&quot;closed&quot;:false,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:49152,&quot;subscribed&quot;:false,&quot;softLimit&quot;:null,&quot;status&quot;:null}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.24">16:46:30.726 [print] [
+  {
+    &quot;id&quot;: &quot;645b7cd3918de67ae1105fb8&quot;,
+    &quot;name&quot;: &quot;Done&quot;,
+    &quot;closed&quot;: false,
+    &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+    &quot;pos&quot;: 49152,
+    &quot;subscribed&quot;: false,
+    &quot;softLimit&quot;: null,
+    &quot;status&quot;: null
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def allLists = response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Archive the lists</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="3.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/1/lists/&#39;, allLists[0].id, &#39;/closed&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.28">
+      <div class="step-ref passed">28</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param value = &#39;true&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = keyVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param token = tokenVal</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method PUT</span>
+      </div>
+    </div>
+    <div class="time-cell passed">744</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.31">16:46:30.729 request:
+3 &gt; PUT https://api.trello.com/1/lists/645b7cd3918de67ae1105fb8/closed?value=true&amp;key=d331c6d0306950ea15c1be8870875a60&amp;token=ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40
+3 &gt; Cookie: dsc=3b945258203de7c5a0a761ec6f42bcd521237f6590cf978013f9e42b36ed0c9d; preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk
+3 &gt; Host: api.trello.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.5)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+16:46:31.471 response time in milliseconds: 741
+3 &lt; 200
+3 &lt; Date: Wed, 10 May 2023 11:16:28 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 124
+3 &lt; X-Dns-Prefetch-Control: off
+3 &lt; Expect-Ct: max-age=0
+3 &lt; X-Frame-Options: DENY
+3 &lt; X-Download-Options: noopen
+3 &lt; X-Permitted-Cross-Domain-Policies: none
+3 &lt; Referrer-Policy: strict-origin-when-cross-origin
+3 &lt; Surrogate-Control: no-store
+3 &lt; Cache-Control: max-age=0, must-revalidate, no-cache, no-store
+3 &lt; Pragma: no-cache
+3 &lt; Expires: Thu, 01 Jan 1970 00:00:00
+3 &lt; X-Trello-Version: 0.0.0
+3 &lt; X-Trello-Environment: Production
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+3 &lt; Access-Control-Allow-Headers: Authorization, Accept, Content-Type
+3 &lt; Access-Control-Expose-Headers: x-rate-limit-api-key-interval-ms, x-rate-limit-api-key-max, x-rate-limit-api-key-remaining, x-rate-limit-api-token-interval-ms, x-rate-limit-api-token-max, x-rate-limit-api-token-remaining
+3 &lt; X-Rate-Limit-Api-Token-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Api-Token-Max: 100
+3 &lt; X-Rate-Limit-Api-Token-Remaining: 91
+3 &lt; X-Rate-Limit-Db-Query-Time-Interval-Ms: 600000
+3 &lt; X-Rate-Limit-Db-Query-Time-Max: 7200000
+3 &lt; X-Rate-Limit-Db-Query-Time-Remaining: 7199990
+3 &lt; X-Rate-Limit-Api-Key-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Api-Key-Max: 300
+3 &lt; X-Rate-Limit-Api-Key-Remaining: 291
+3 &lt; X-Rate-Limit-Member-Interval-Ms: 10000
+3 &lt; X-Rate-Limit-Member-Max: 375
+3 &lt; X-Rate-Limit-Member-Remaining: 366
+3 &lt; Set-Cookie: preAuthProps=s%3A63b3b2edb721b104190b8817%3AisEnterpriseAdmin%3Dfalse.m1Mh3B%2BIYhrw8x5PWkOowCUOmUz2cfKMPTjDLZXmtYk; Path=/; HttpOnly
+3 &lt; X-Server-Time: 1683717388163
+3 &lt; Server: AtlassianEdge
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Xss-Protection: 1; mode=block
+3 &lt; Atl-Traceid: a95b0b755f854acb
+3 &lt; Report-To: {&quot;endpoints&quot;: [{&quot;url&quot;: &quot;https://dz8aopenkvv6s.cloudfront.net&quot;}], &quot;group&quot;: &quot;endpoint-1&quot;, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600}
+3 &lt; Nel: {&quot;failure_fraction&quot;: 0.001, &quot;include_subdomains&quot;: true, &quot;max_age&quot;: 600, &quot;report_to&quot;: &quot;endpoint-1&quot;}
+3 &lt; Strict-Transport-Security: max-age=63072000; preload
+{&quot;id&quot;:&quot;645b7cd3918de67ae1105fb8&quot;,&quot;name&quot;:&quot;Done&quot;,&quot;closed&quot;:true,&quot;idBoard&quot;:&quot;645b7cd3918de67ae1105faf&quot;,&quot;pos&quot;:49152,&quot;status&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.33">16:46:31.472 [print] {
+  &quot;id&quot;: &quot;645b7cd3918de67ae1105fb8&quot;,
+  &quot;name&quot;: &quot;Done&quot;,
+  &quot;closed&quot;: true,
+  &quot;idBoard&quot;: &quot;645b7cd3918de67ae1105faf&quot;,
+  &quot;pos&quot;: 49152,
+  &quot;status&quot;: null
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

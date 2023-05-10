@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"tests\/AllinOne[1:9]","start":1683717938009,"end":1683717940425,"title":"tests\/AllinOne[1:9] 16:55:38.009-16:55:40.425 Create a Board and Get the Board"},{"id":2,"group":1,"content":"tests\/AllinOne[2.1:55]","start":1683717940443,"end":1683717943818,"title":"tests\/AllinOne[2.1:55] 16:55:40.443-16:55:43.818 Archive lists"},{"id":3,"group":1,"content":"tests\/AllinOne[2.2:56]","start":1683717943827,"end":1683717945407,"title":"tests\/AllinOne[2.2:56] 16:55:43.827-16:55:45.407 Archive lists"},{"id":4,"group":1,"content":"tests\/AllinOne[2.3:57]","start":1683717945414,"end":1683717948479,"title":"tests\/AllinOne[2.3:57] 16:55:45.414-16:55:48.479 Archive lists"},{"id":5,"group":1,"content":"tests\/AllinOne[3:59]","start":1683717948486,"end":1683717952838,"title":"tests\/AllinOne[3:59] 16:55:48.486-16:55:52.838 Create lists in board"},{"id":6,"group":1,"content":"tests\/AllinOne[4:101]","start":1683717952845,"end":1683717956218,"title":"tests\/AllinOne[4:101] 16:55:52.845-16:55:56.218 Create a new card"},{"id":7,"group":1,"content":"tests\/AllinOne[5:128]","start":1683717956225,"end":1683717959812,"title":"tests\/AllinOne[5:128] 16:55:56.225-16:55:59.812 Move cards to the list"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
