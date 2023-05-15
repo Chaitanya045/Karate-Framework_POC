@@ -49,6 +49,7 @@ Feature: Trello API
     And param token = tokenVal
     When method PUT
     Then status 200
+    And match $.closed == true
     And print response
     Examples:
     |ids|
@@ -80,6 +81,7 @@ Feature: Trello API
     And param token = tokenVal
     When method POST
     Then status 200
+    And match $.name == 'Done'
     And print response
     #Getting all the lists in the board
     Given path '/1/boards/', allBoards[0].id, '/lists'
@@ -96,6 +98,7 @@ Feature: Trello API
     And param token = tokenVal
     When method POST
     Then status 200
+    And match $.name == 'To Do'
     And print response
     
     Scenario: Create a new card
