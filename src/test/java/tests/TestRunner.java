@@ -33,13 +33,13 @@ public class TestRunner {
 //	}
 //	
 //	@Karate.Test
-//	Karate moveCard() {
-//		return Karate.run("MoveCard").relativeTo(getClass());
+//	Karate allinOne() {
+//		return Karate.run("AllinOne").relativeTo(getClass());
 //	}
 	
 	@Karate.Test
 	Karate allinOne() {
-		return Karate.run("AllinOne").relativeTo(getClass());
+		return Karate.run("DataDriven").tags("@Test1").relativeTo(getClass());
 	}
 	
 }

@@ -3,14 +3,13 @@ Feature: Trello API
   Background: 
     * url 'https://api.trello.com'
     * header Accept = 'application/json'
-    * def keyVal = 'd331c6d0306950ea15c1be8870875a60'
-    * def tokenVal = 'ATTA1a7971bfbd25f0320bc6fdd8b8467298dcba14ce3bfcb73d276ecca13c3adf95F2278C40'
-
+    * eval credentials = read('credentials.csv')
+	
   Scenario: Create a Board and Get the Board
     #Creating a Board
     Given path '/1/boards/'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     And param name = 'Karate-Framework'
     When method POST
     Then status 200
@@ -19,8 +18,8 @@ Feature: Trello API
     And match $.name == 'Karate-Framework'
     #Getting the board
     Given path '/1/boards/', boardCreated.id
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
@@ -28,16 +27,16 @@ Feature: Trello API
     Scenario Outline: Archive lists
     #Getting all the boards
     Given path '/1/members/me/boards'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
     And def allBoards = response
     #Getting the lists on board
     Given path '/1/boards/', allBoards[0].id, '/lists'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
@@ -45,8 +44,8 @@ Feature: Trello API
     #Archive the lists
     Given path '/1/lists/', <ids>, '/closed'
     And param value = 'true'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method PUT
     Then status 200
     And match $.closed == true
@@ -60,16 +59,16 @@ Feature: Trello API
     Scenario: Create lists in board
     #Getting all the boards
     Given path '/1/members/me/boards'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
     And def allBoards = response
     #Getting all the lists in the board
     Given path '/1/boards/', allBoards[0].id, '/lists'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
@@ -77,16 +76,16 @@ Feature: Trello API
     Given path '/1/lists'
     And param idBoard = allBoards[0].id
     And param name = 'Done'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method POST
     Then status 200
     And match $.name == 'Done'
     And print response
     #Getting all the lists in the board
     Given path '/1/boards/', allBoards[0].id, '/lists'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
@@ -94,8 +93,8 @@ Feature: Trello API
     Given path '/1/lists'
     And param idBoard = allBoards[0].id
     And param name = 'To Do'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method POST
     Then status 200
     And match $.name == 'To Do'
@@ -104,16 +103,16 @@ Feature: Trello API
     Scenario: Create a new card
     #Getting all the boards
     Given path '/1/members/me/boards'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
     And def allBoards = response
     #Getting the lists on board
     Given path '/1/boards/', allBoards[0].id, '/lists'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
@@ -122,8 +121,8 @@ Feature: Trello API
     Given path '/1/cards'
     And param idList = allLists[0].id
     And param name = 'Practice Karate-Framework'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method POST
     Then status 200
     And print response
@@ -131,16 +130,16 @@ Feature: Trello API
     Scenario: Move cards to the list
     #Getting all the boards
     Given path '/1/members/me/boards'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
     And def allBoards = response
     #Getting the lists on board
     Given path '/1/boards/', allBoards[0].id, '/lists'
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method GET
     Then status 200
     And print response
@@ -149,8 +148,8 @@ Feature: Trello API
     Given path '/1/lists/', allLists[0].id, '/moveAllCards'
     And param idBoard = allBoards[0].id
     And param idList = allLists[1].id
-    And param key = keyVal
-    And param token = tokenVal
+    And param key = credentials[0].Key
+    And param token = credentials[0].Token
     When method POST
     Then status 200
     And print response
